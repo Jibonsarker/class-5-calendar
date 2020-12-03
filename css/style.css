@@ -1,0 +1,45 @@
+body{ background:blue;}
+
+
+table{
+    background:gold;
+    color: green;
+}
+.container{
+    width: 600px;
+    margin:auto;
+    font-family:sans-serif;
+}
+.month{
+    text-align: center;
+    background: red;
+    font-size:2em;
+    letter-spacing:1px;
+    color: yellowgreen;
+    padding: 20px;
+    border: violet;
+}
+table, th, td{
+    width:100%;
+    table-layout: fixed;
+    text-align: center;
+    font-size:17px;
+    border-collapse: collapse;
+    border:1px solid blue;
+}
+tr,th,td{
+    padding: 15px;
+}
+th{
+    background:orange;
+    color: skyblue;
+}
+td{
+    background: yellow;
+}
+th:hover{
+    background: red;
+}
+td:hover{
+    background: rgb(112, 7, 7);
+}
